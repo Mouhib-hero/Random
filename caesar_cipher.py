@@ -2,7 +2,7 @@
 tab = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 tab2 = []
 count=0
-chaine=input('saisir la chaine encryptee: ')
+chaine=input('type the encrypted string: ')
 char = " "
 #indices = [i.start() for i in re.finditer(char, chaine)]
 indices = [i for i, c in enumerate(chaine) if c == char]
